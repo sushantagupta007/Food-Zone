@@ -1,0 +1,222 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    width:100%;
+    padding:2rem;
+}
+.navbar li{
+    display: inline-block;
+    
+}
+
+.navbar a{
+    margin-right: 3rem;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    background-color: orangered;
+    color: #ffffff;
+    text-decoration:underline; 
+}
+
+
+/*******Section Intro CSS********/
+.intro{
+    display: flex;
+    padding:5rem;
+    justify-content: space-around;
+} 
+.intro-slogan{
+    display: flex;
+    flex-direction: column;
+    padding-top: 15rem;
+    padding-left: 5rem;
+    
+}
+
+.intro-slogan h1{
+    font-size:3rem;
+    line-height: 4rem;
+    font-weight:bolder;
+    color: #575757; 
+    margin-bottom: 1.5rem;
+}
+
+.intro-slogan p{
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color:#828282; 
+}
+
+.btn{
+    width:10rem;
+    height:3rem;
+    border-radius: 45px;
+    border:none;
+    background: #EDC21B;
+    background: linear-gradient(to top left, #EDC21B, #F48D25);
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.intro a{
+    text-decoration: none;
+    color:#ffff;
+    font-weight: 600;
+    font-size: 1rem;
+}
+.intro a:hover{
+    text-decoration: underline;
+}
+
+
+/*About ME CSS*/
+.about-me{
+    display: flex;
+    width:100%;
+    height:600px;
+    background:url(./images/shapes/7.png);
+    background-repeat: no-repeat; 
+}
+.about-me-img{
+    padding-top: 6rem;
+    padding-left: 10rem;  
+}
+.about-me-img img{
+    height: 500px;
+}
+.about-me-description{ 
+    padding-top: 8rem;
+    padding-left: 15rem;  
+}
+.about-me-description h1{
+    color:#707070;
+    margin-bottom: 3rem;
+    font-size: 3rem;
+}
+
+.about-me-description p{
+    line-height: 2rem;
+    margin-bottom: 3rem;
+}
+
+.about-me a{
+    text-decoration: none;
+    color:#ffff;
+    font-weight: 600;
+    font-size: 1rem;
+}
+.about-me a:hover{
+    text-decoration: underline;
+}
+
+/********Recipie Card******/
+.my-recipie{
+    background:#E5E5E5;
+    display: flex;
+    flex-direction: column;
+}
+.my-recipie-intro{
+    text-align: center;
+}
+.my-recipie{
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.my-recipie h1{
+    color:#707070;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+.recipie-card{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2rem;
+}
+.card-img{
+    width:21rem;
+    height:16rem;
+    margin-bottom: 1.5rem;
+}
+.inside-card{
+    width:23rem;
+    height: 35rem;
+    margin-top: 5rem;
+    padding:1rem;
+    border:1px solid #ffff; 
+    border-radius: 25px;
+    background:#ffff;
+
+}
+.inside-card-title{
+    font-weight: bold;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+.inside-card-para{
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.follower{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 2rem;
+    background:#ffffff;
+    width:90%;
+    margin-bottom: 4rem;
+    margin-left: 5%;
+    margin-right: 5%; 
+    padding:4rem;
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 20px;
+
+}
+
+/******Footer CSS******/
+.footersection{
+    background:black; 
+    color:white;
+    text-align: center;
+    padding:5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.address{
+    width:25%;
+    text-align: justify;
+    line-height: 2rem;
+}
+.address span{
+    font-size: 1.5rem;
+}
+.address-social{
+    color:#ffffff;
+    margin-right: 1rem;
+}
+.conclusion-title span{
+    color:orangered
+}
+.conclusion h1::first-letter{
+    color:orange;
+}
+.conclusion-title{
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+.conclusion-para{
+    font-size: 1rem;
+}
