@@ -169,6 +169,34 @@
     line-height: 1.5rem;
 }
 
+#album{
+    text-align: center;
+    margin-left: 5%;
+    margin-right:5%;
+    height:25rem;
+}
+
+#album h1{
+    font-size: 2rem;
+}
+.album{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%; 
+    padding:1rem;
+}
+.album img{
+    width:15rem;
+    height:16rem;
+    border-right:5px solid black;
+    border-radius: 50%;
+}
+.album a{
+    margin-top:2rem;
+    font-weight: 700;
+}
 .follower{
     display: flex;
     justify-content: space-between;
