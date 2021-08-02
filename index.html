@@ -15,153 +15,152 @@
     <title>Food Network</title>
 </head>
 <body>
-    <header>
-        <nav class="navbar">
-            <ul>
-                <li> <a class="active" href="#about-me"> About </a></li>
-                <li> <a target="_blank" href="#"> Menu </a></li>
-                <li> <a target="_blank" href="#"> Catering </a></li>
-                <li> <a href="#my-recipie"> Recipie </a></li>
-                <li> <a target="_blank" href="contact.html"> Contact </a></li>
-            </ul>
-        </nav>
+    <header id="headerSection">
+        <section id="nav"></section>
+        <section id="foodTheme">
+            <div id="foodThemeText">
+                <h1> 
+                    <strong> <span style="color:orangered"> Skip </span> The Diet, <br> 
+                        Just Eat Healthy <br>
+                        With Food Network
+                    </strong> 
+                </h1> 
+                <p>
+                    Imagine you don't need a diet because we provide <br>
+                    healthy and delicious food for you!
+                </p>
+                <button class="btn" type="button"><a target="_blank" href="order.html"> Order Food </a></button>
+            </div>
+            <div id=foodThemeImage>
+                <img src="./images/female/Group 8425.png" alt="taste food by lady">
+            </div>
+        </section>
     </header>
-    <section id="intro" class="intro">
-    <div class="intro-slogan">
-        <h1> 
-            <strong> <span style="color:orangered"> Skip </span> The Diet, <br> 
-                Just Eat Healthy <br>
-                With Food Network
-            </strong> 
-        </h1> 
-        <p>
-            Imagine you don't need a diet because we provide <br>
-            healthy and delicious food for you!
-        </p>
-        <button class="btn" type="button"><a target="_blank" href="order.html"> Order Food </a></button>
-    </div>  
-    <div class="intro-img half-width">
-        <img src="./images/female/Group 8425.png" alt="taste food by lady">
-    </div>
-    </section>
-    <section id="about-me" class="about-me">
-        <div class="about-me-img">
-            <img src="./images/female/Person Image.png" alt="About Me Section Image">
-        </div>
-        <div class="about-me-description">
-            <h1>About Me</h1>
-            <p>
-                Stephen James Easterbrook (born 6 August 1967) is a British business executive. From March 2015 to November 2019, he was president and chief executive of McDonald's, the American fast food company.
-            </p>
-            <button class="btn" type="button"><a target="_blank" href="contact.html"> Contact Me </a></button>
-        </div>
-    </section>
-    <section id="my-recipie" class="my-recipie">
-        <div class="my-recipie-intro">
-            <h1>My recipies</h1>
-            <p>
-                With a long history, unique features, numerous styles and exquisite cooking, <br> 
-                Chinese cuisine is one important constituent part of Chinese culture.
-            </p>
-        </div>
-        
-        <div class="recipie-card">
-            <div class="inside-card">
-                <img class="card-img" src="./images/food/Project Cover.jpg" alt="card 0 image">
-                <h2 class="inside-card-title">Chow Mein</h2>
-                <p class="inside-card-para">
-                    Chow mein"- stir-fried noodles. <br> It consists of noodles, meat, chicken <br>
-                    beef, shrimp), onions and celery. <br> 
-                    For making chow mein, the noodles <br>
-                    need to be cooked in boiling water for a while. <br> <a href="https://www.chinahighlights.com/travelguide/chinese-food/eight-chinese-dishes.htm">For More Info</a>
-                </p>
+
+    <main id="mainSection">
+        <section id="about-me">
+            <div id="about-me-img">
+                <img src="./images/female/Person Image.png" alt="About Me Section Image">
             </div>
-            <div class="inside-card">
-                <img class="card-img" src="./images/food/Project Cover1.jpg" alt="card 0 image">
-                <h2 class="inside-card-title">Steamed Vermicelli Rolls</h2>
-                <p class="inside-card-para">
-                    One of the must-orders of any dim sum meal!
-                    they are not only an expert choice in Guangzhou teahouses,
-                    morning tea restaurants, and street food night bazaars, but also a delicacy for many people's breakfasts. <br>
-                    <a href="https://www.chinahighlights.com/travelguide/chinese-food/eight-chinese-dishes.htm">To Know More</a>
-                    
-                </p>
+            <div id="about-me-description">
+                <div id="about-me-description-inside">
+                    <h1>About Me</h1>
+                    <p>
+                        Stephen James Easterbrook (born 6 August 1967) is a British business executive. From March 2015 to November 2019, he was president and chief executive of McDonald's, the American fast food company.
+                    </p>
+                    <button class="btn" type="button"><a target="_blank" href="contact.html"> Contact Me </a></button>
+                </div>
             </div>
-            <div class="inside-card">
-                <img class="card-img" src="./images/food/Project Cover.png" alt="card 0 image">
-                <h2 class="inside-card-title">Kung Pao Chicken</h2>
-                <p class="inside-card-para">
-                    Kung Pao Chicken- a famous Sichuan <br> style 
-                    specialty and popular with both Chinese and foreigners. <br> <br>
-                    The major ingredients are diced chicken, dried chili, and fried peanuts. <br>
-                    For Detail Info <a href="https://www.chinahighlights.com/travelguide/chinese-food/eight-chinese-dishes.htm"> Visit Here</a>
+        </section>
+        <section id="recepie">
+            <div id="my-recipie-intro">
+                <h1>My recipies</h1>
+                <p>
+                    With a long history, unique features, numerous styles and exquisite cooking, <br> 
+                    Chinese cuisine is one important constituent part of Chinese culture.
                 </p>
             </div>
             
-        </div>
-        <div id="album">
-            <h1> Food Album</h1>
-            <div class="album">
-                <div>
-                    <img src="./images/food/Project Cover8.png" alt="Spanish Food">
-                   <a target="_blank" href="#"> Spanish Food</a>
+            <div id="recipie-card">
+                <div id="recipie-card-inside">
+                <!-- First Card -->
+                <div class="card">
+                    <div id="card-img"> 
+                        <img src="./images/food/Project Cover.jpg" alt="card 0 image">
+                    </div>
+                    <div id="card-description"> 
+                        <h2>Chow Mein</h2>
+                        <p>
+                            Chow mein"- stir-fried noodles. <br> It consists of noodles, meat, chicken <br>
+                            beef, shrimp), onions and celery. <br> 
+                            For making chow mein, the noodles <br>
+                            need to be cooked in boiling water for a while. <br> <a href="https://www.chinahighlights.com/travelguide/chinese-food/eight-chinese-dishes.htm">For More Info</a>
+                        </p>
+                    </div>
                 </div>
-                <div>
-                    <img src="./images/food/Project Cover7.png" alt="Chinese Food">
-                    <a target="_blank" href="#"> Chinese Food</a>
+                <!-- Second Card -->
+                <div class="card">
+                    <div id="card-img"> 
+                        <img src="./images/food/Project Cover.jpg" alt="card 0 image">
+                    </div>
+                    <div id="card-description"> 
+                        <h2 class="inside-card-title">Chow Mein</h2>
+                        <p class="inside-card-para">
+                            Chow mein"- stir-fried noodles. <br> It consists of noodles, meat, chicken <br>
+                            beef, shrimp), onions and celery. <br> 
+                            For making chow mein, the noodles <br>
+                            need to be cooked in boiling water for a while. <br> <a href="https://www.chinahighlights.com/travelguide/chinese-food/eight-chinese-dishes.htm">For More Info</a>
+                        </p>
+                    </div>
                 </div>
-                <div>
-                    <img src="./images/food/Project Cover6.png" alt="Italian Food">
-                    <a target="_blank" href="#"> Italian Food</a>
+                <!-- Third Card -->
+                <div class="card">
+                    <div id="card-img"> 
+                        <img src="./images/food/Project Cover.jpg" alt="card 0 image">
+                    </div>
+                    <div id="card-description"> 
+                        <h2 class="inside-card-title">Chow Mein</h2>
+                        <p class="inside-card-para">
+                            Chow mein"- stir-fried noodles. <br> It consists of noodles, meat, chicken <br>
+                            beef, shrimp), onions and celery. <br> 
+                            For making chow mein, the noodles <br>
+                            need to be cooked in boiling water for a while. <br> <a href="https://www.chinahighlights.com/travelguide/chinese-food/eight-chinese-dishes.htm">For More Info</a>
+                        </p>
+                    </div>
+                </div>  
                 </div>
-                <div>
-                    <img src="./images/food/Project Cover5.png" alt=" Japanese Food">
-                    <a target="_blank" href="#"> Japanese Food</a>
+                
+            </div>
+        </section>
+        <section id="follower" class="follower">
+            <div id="followerDes"> 
+                <div id="followerDesInside">
+                    <h1>700K </h1>
+                    <p style="margin-bottom: 1rem"> Youtube followers</p>
+                    <a target="_blank" href="https://www.youtube.com/"> Youtube Videos</a>
                 </div>
+                <div id="followerDesInside">
+                    <h1>700K </h1>
+                    <p style="margin-bottom: 1rem"> Youtube followers</p>
+                    <a target="_blank" href="https://www.youtube.com/"> Youtube Videos</a>
+                </div>
+                <div id="followerDesInside">
+                    <h1>700K </h1>
+                    <p style="margin-bottom: 1rem"> Youtube followers</p>
+                    <a target="_blank" href="https://www.youtube.com/"> Youtube Videos</a>
+                </div>
+                
             </div>
-            </div>
-        </div>
-        <div id="follower" class="follower">
-            <div>
-                <h1>700K </h1>
-                <p style="margin-bottom: 1rem"> Youtube followers</p>
-                <a target="_blank" href="https://www.youtube.com/"> Youtube Videos</a>
-            </div>
-            <div>
-                <h1>2.4M</h1>
-                <p style="margin-bottom: 1rem"></pstyle>Instagram followers</p>
-                <a target="_blank" href="https://www.instagram.com/"> Instagram Photos</a>
-            </div>
-            <div>
-                <h1>100K</h1>
-                <p style="margin-bottom: 1rem">Facebok Followers</p>
-                <a target="_blank" href="https://www.facebook.com/"> Facebook Page</a>
-            </div>
-        </div>
-    </section>
-
-    <footer class="footersection">
-        <div class="address"> 
-            <address>
-                <span> Food Zone Restaurant</span> <br> <br> 
-                Address: 3266, West 6th Street (downtown), Los Angeles <br>
-                Tel.: (1)(213)3875502 <br>
-                Opening hours: 10:30~16:00 <br>
-                Closed on Sundays. <br>
-                <a class="address-social" target="_blank" href="https://www.facebook.com/"> Facebook </a>
-                <a class="address-social" target="_blank" href="https://www.youtube.com/"> Youtube </a>
-                <a class="address-social" target="_blank" href="https://www.instagram.com/"> Instagram </a>
-            </address>
-        </div>
-        <div class="conclusion">
-            <h1 class="conclusion-title"> <span> Food </span> Network</h1>
-            <p class="conclusion-para">Eat healthy to live healthy. <br> <br>
-                Live healthy to live happy. <br> <br>
-                Do regular Exercise and eat balanced Food. <br> <br>
-                Eat Fresh and Green Food 
-            </p>    
-        </div>
+            
+        </section>
         
-    </footer> -->
+    </main>
+
+    <footer id="footersection">
+        <section id="footersectionInside">
+            <div class="address"> 
+                <address>
+                    <span> Food Zone Restaurant</span> <br> <br> 
+                    Address: 3266, West 6th Street (downtown), Los Angeles <br>
+                    Tel.: (1)(213)3875502 <br>
+                    Opening hours: 10:30~16:00 <br>
+                    Closed on Sundays. <br>
+                    <a class="address-social" target="_blank" href="https://www.facebook.com/"> Facebook </a>
+                    <a class="address-social" target="_blank" href="https://www.youtube.com/"> Youtube </a>
+                    <a class="address-social" target="_blank" href="https://www.instagram.com/"> Instagram </a>
+                </address>
+            </div>
+            <div class="conclusion">
+                <h1 class="conclusion-title"> <span> Food </span> Network</h1>
+                <p class="conclusion-para">Eat healthy to live healthy. <br> <br>
+                    Live healthy to live happy. <br> <br>
+                    Do regular Exercise and eat balanced Food. <br> <br>
+                    Eat Fresh and Green Food 
+                </p>    
+            </div>
+        </section>
+        
+        <p>Website Build By <span style="color:orange">Sushanta Gupta</span></p>
+    </footer> --> 
 </body>
 </html>
